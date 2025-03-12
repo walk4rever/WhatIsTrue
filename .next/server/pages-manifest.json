@@ -1,0 +1,14 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
+  "/login": "pages/login.js",
+  "/api/user": "pages/api/user.js",
+  "/api-docs": "pages/api-docs.js",
+  "/": "pages/index.js",
+  "/api/verify": "pages/api/verify.js",
+  "/api/user/api-key": "pages/api/user/api-key.js",
+  "/dashboard": "pages/dashboard.js",
+  "/verify": "pages/verify.js"
+}
