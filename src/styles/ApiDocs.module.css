@@ -1,0 +1,159 @@
+.container {
+  min-height: 100vh;
+  padding: 0 1rem;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.title {
+  margin-bottom: 2rem;
+  line-height: 1.15;
+  font-size: 2.5rem;
+  color: #2d3748;
+}
+
+.docSection {
+  margin-bottom: 3rem;
+}
+
+.docSection h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #2d3748;
+  font-size: 1.8rem;
+}
+
+.docSection p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.codeBlock {
+  background: #f7fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 1rem;
+  overflow: auto;
+  font-family: monospace;
+  margin-bottom: 1rem;
+}
+
+.endpoint {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.endpoint:last-child {
+  border-bottom: none;
+}
+
+.endpoint h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #2d3748;
+}
+
+.endpoint h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #4a5568;
+}
+
+.method {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  background: #0070f3;
+  color: white;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.rateList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rateList li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.rateList li:last-child {
+  border-bottom: none;
+}
+
+.errorTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.errorTable th, .errorTable td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.errorTable th {
+  background-color: #f7fafc;
+  font-weight: 600;
+}
+
+.ctaSection {
+  background: #f7fafc;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.ctaSection h2 {
+  margin-top: 0;
+}
+
+.ctaButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.primaryButton {
+  background: #0070f3;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.primaryButton:hover {
+  background: #005bbf;
+}
+
+.secondaryButton {
+  background: white;
+  color: #0070f3;
+  border: 1px solid #0070f3;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.secondaryButton:hover {
+  background: #f0f7ff;
+}
