@@ -50,7 +50,6 @@ export default function Navigation() {
           >
             API
           </Link>
-          
           {session ? (
             <>
               <Link 
